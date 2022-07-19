@@ -1,0 +1,226 @@
+body {
+    color: #262626;
+    margin: 0;
+    padding: 0;
+    background: #FAFAFA ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+/*container*/
+.container {
+    width: 810px;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: -px;
+    margin: 35px auto 35px;
+    padding-right: 50px;
+    
+
+
+}
+
+.phone {
+    position: relative;
+    height: 635px;
+    background: url('./img/phone.png') no-repeat center ;
+}
+
+.phone img {
+    position: absolute;
+    top: 25px;
+    left: 155px;
+}
+
+/*formulário*/
+form {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 20px 40px;
+    margin-top: 12px;      
+}
+
+form .logo {
+    margin: 30px;
+    height: 60%;
+}
+.form .input{    
+    color: #262626;
+    width: 90%;
+    border: 1px solid #dbdbdb ;
+    background: #FAFAFA;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+  .input:focus {
+    border: 1px solid #b2b2b2;
+}
+
+form .botao {
+    background-color: #0095F6;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+ 
+form .separator  {
+    margin: 16px 0 26px;
+    display: flex;
+    height: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .separator .line {
+    width: 105px;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+form .separator p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999 ;
+    font-size: 12px;
+}
+
+
+form .link-fb {
+    color: #385185;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto 18;
+    font-size: 14px;
+}
+
+form .password a {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #00376b;
+}
+/*final do formulário*/
+
+/*inscrever-se*/
+
+.inscrever-se {
+    margin-top: 10px ;
+    padding: 10px;
+    text-align: center;
+    background: #FFFF;
+    border: 1px solid  rgb(219, 219, 219);
+}
+
+.inscrever-se a { 
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* final de inscrever-se*/
+
+/*download*/
+.download p{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.down-logo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.down-logo img{
+    width: 136px;
+}
+
+/*footer*/
+footer {
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-links {
+        margin-bottom: 15px;
+  
+}
+
+.footer-links a {
+    color: #8e8e8e ;
+    font-size: 12px;
+    margin: 0 0 8px 10px;
+}
+
+footer .copy{
+    margin-bottom: 60px;
+}
+
+span {
+    color: #8e8e8e ;
+    font-size: 12px;
+    margin: 0 0 8px 10px;
+}
+
+/*Media queries*/
+
+@media (max-width: 884px){
+        
+     
+    .container{
+        margin: 120px  auto;
+        padding: 25px;
+        margin-left: -20px;
+    }
+
+    footer{
+        width: 700px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .phone {
+        display: none;
+    }
+
+    .container {
+        width: 200px;
+        padding: 45px;
+        margin-top: 0px;
+    }
+
+
+
+    footer {
+        background: #FAFAFA;
+        width: 300px;
+        
+        margin-top: -80px;
+        
+    }
+}
+
+
+
+ 
+
+
+ 
+
+
+
+
+
